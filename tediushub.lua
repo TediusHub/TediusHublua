@@ -1,4 +1,4 @@
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/Module.lua"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/module.lua"))()
 
 local UI = Material.Load({
      Title = "Tedius Hub",
@@ -19,7 +19,7 @@ local Page2 = UI.New({
 Page1.Button({
     Text = "Arsenal",
     Callback = function()
-       loadstring(game:HttpGet("", true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/Scripts/arsenal.lua", true))()
 end
 })
 

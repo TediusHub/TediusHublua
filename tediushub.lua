@@ -17,6 +17,13 @@ local Page2 = UI.New({
 })
 
 Page1.Button({
+    Text = "Admin GUI",
+    Callback  = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/Scripts/admingui.lua", true))()
+end
+})
+
+Page1.Button({
     Text = "Arsenal",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/Scripts/arsenal.lua", true))()
@@ -24,9 +31,16 @@ end
 })
 
 Page1.Button({
+    Text = "Bedwards",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))()
+end
+})
+
+Page1.Button({
     Text = "Pet Simulator X",
     Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Wind596/RaitoHub.c-/main/RaitoHub", true))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/Scripts/petsimx.lua", true))()
 end
 })
 

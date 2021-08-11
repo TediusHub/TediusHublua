@@ -132,7 +132,7 @@ end
 })
 
 Page2.Button({
-    Text = "Coming Soon..."
+    Text = "Coming Soon...",
     Callback = function()
 end
 })

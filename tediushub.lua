@@ -78,7 +78,7 @@ end
 Page1.Button({
     Text = "Mall Tycoon",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/Scripts/malltycoon.lua", true))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TediusHub/TediusHublua/main/Scripts/malltycoon.lua", true))()
 end
 })
 

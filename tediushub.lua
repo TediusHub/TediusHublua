@@ -1,4 +1,4 @@
-SetCore("SendNotification",{
+game:GetService("StarterGui"):SetCore("SendNotification",{
 				Title = "Jewelry is ready!",
 				Text = "verggggaa!",
 				Duration = 15,

@@ -134,6 +134,7 @@ end
 Page3.Button({
     Text = "Coming Soon..."
     Callback = function()
+end
 })
 
 Page3.Button({

@@ -131,7 +131,7 @@ Page1.Button({
 end
 })
 
-Page3.Button({
+Page2.Button({
     Text = "Coming Soon..."
     Callback = function()
 end
